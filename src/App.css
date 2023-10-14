@@ -1,0 +1,35 @@
+
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #111;
+}
+
+img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+}
